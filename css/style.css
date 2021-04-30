@@ -8,7 +8,7 @@ body {
     font-family: 'Yantramanav', sans-serif;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -213,7 +213,7 @@ footer {
 }
 
 [class^="footer-container"] {
-    max-width: 1350px;
+    max-width: 1225px;
     color: #fff;
     margin: 0 auto;
 }
@@ -230,6 +230,14 @@ footer {
 .footer-container > div {
     display: inline-block;
     padding-right: 80px;
+}
+
+.footer-container .fl:first-child {
+    width: 36%;
+}
+
+.footer-container .fl {
+    width: 16%;
 }
 
 .slogan {
@@ -277,7 +285,7 @@ footer {
 }
 
 .footer-container-2 {
-    width: 1004px;
+    width: 1225px;
     padding-top: 20px;
 }
 
